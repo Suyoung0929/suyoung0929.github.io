@@ -6,13 +6,18 @@ body {
   color: #222;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .site-header {
+  display: block;
   border-top: 4px solid #2f3a46;
   border-bottom: 1px solid #ccc;
   background: #fff;
 }
 
-.header-inner {
+.site-header .header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -21,28 +26,30 @@ body {
   padding: 20px;
 }
 
-.site-title {
+.site-header .site-title {
   color: #000;
   font-size: 18px;
   font-weight: 700;
-}
-
-.site-title:hover {
   text-decoration: none;
 }
 
-.top-nav {
+.site-header .site-title:hover {
+  text-decoration: none;
+}
+
+.site-header .top-nav {
   display: flex;
   align-items: center;
   gap: 34px;
 }
 
-.top-nav a {
+.site-header .top-nav a {
   color: #000;
   font-size: 17px;
+  text-decoration: none;
 }
 
-.top-nav a:hover {
+.site-header .top-nav a:hover {
   color: #0000cc;
   text-decoration: none;
 }
