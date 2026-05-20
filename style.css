@@ -58,6 +58,7 @@ body {
 
 .links a:hover {
   color: #0056b3;
+  text-decoration: none;
 }
 
 .links i {
@@ -85,6 +86,15 @@ h2 {
 p {
   line-height: 1.7;
   font-size: 17px;
+}
+
+a {
+  color: #0000cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 ul {
